@@ -6,6 +6,7 @@
         "type": "git",
         "url": "https://github.com/euresch/tom"
     },
+    "main": "index.js",
     "scripts": {
         "build": "tsc"
     },
