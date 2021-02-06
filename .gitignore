@@ -1,9 +1,4 @@
 node_modules/
 $tmp-*/
-x4/
-*package.manifest
-*.js
-*.js.map
 *.log
-default-env.json
 package-lock.json
