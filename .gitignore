@@ -1,4 +1,7 @@
+# Dependency directories
 node_modules/
-$tmp-*/
+# Compiled binary
+/dist
+# Logs
 *.log
 package-lock.json

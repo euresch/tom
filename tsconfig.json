@@ -1,15 +1,21 @@
 {
-    "compileOnSave": true,
-    "compilerOptions": {
-        "moduleResolution": "Node",
-        "esModuleInterop": true,
-        "module": "commonjs",
-        "target": "ES2019",
-        "sourceMap": true,
-        "alwaysStrict": true,
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
-        "resolveJsonModule": true
-    },
-    "exclude": ["node_modules"]
+  "compileOnSave": true,
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "ES2019",
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "outDir": "./dist",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "incremental": true,
+    "forceConsistentCasingInFileNames": true,
+    "diagnostics": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
 }
